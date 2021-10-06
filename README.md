@@ -31,5 +31,8 @@ Se utilizo postman como software para realizar las diferentes consultas dentro d
 Se implemento "Vue" para para renderizar las vistas del cliente, esto junto con Axios, para el manejo de las peticiones HTML.
 - Para correr el cliente se utiliza el comando: "npm run serve" dentro de la carpeta raiz del proyecto "/Exercise3".
 
-### COMENTARIOS:
+
+
+### COMENTARIOS
+
 Realmente tengo poca experiencia desarrollando la seccion de front-end, por lo que el desarrollo de las vistas con Vue y su implementacion no estan totalmente completas, dicho esto, estuve investigando y aprendiendo por mi cuenta como hacer esta implementacion pero por el tiempo no pude finalizarlo como me gustaria, pero es uy interesante y me gustaria poder aprenderlo mejor.
