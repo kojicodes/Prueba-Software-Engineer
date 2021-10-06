@@ -1,0 +1,24 @@
+{
+  "name": "Prueba-Software-Engineer",
+  "version": "1.0.0",
+  "description": "- list --> *lista final*\r - lim_row --> *limite de las filas.*\r - lim_col --> *guia para las columnas.*\r - dir --> *valor de direccion en el recorrido ( 0 = derecha, 1= abajo, 2 = izquierda, 3 = arriba)*\r - size --> *tamaño total del arreglo bidimensional.*\r - iter --> *iterador del ciclo.*\r - row --> *identificador de filas.*\r - col --> *identificador de columnas.*",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kojicodes/Prueba-Software-Engineer.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kojicodes/Prueba-Software-Engineer/issues"
+  },
+  "homepage": "https://github.com/kojicodes/Prueba-Software-Engineer#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "pg": "^8.7.1"
+  }
+}
