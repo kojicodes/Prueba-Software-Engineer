@@ -24,7 +24,15 @@ const createBook = async (req, res) => {
     })
 };
 
+const getBookby = async (req, res) => {
+    const {title, editorial, author, published } = req.query;
+    const response = await db.query('SELECT * FROM books WHERE title=$1 OR editorial=$2 OR author=$3 OR published=$4', [title, editorial, author, published]);
+    res.json(response.rows);
+};
+
+
 module.exports = {
     getBooks,
-    createBook
+    createBook,
+    getBookby
 }

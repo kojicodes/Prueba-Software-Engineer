@@ -10,4 +10,4 @@ CREATE TABLE books(
 
 INSERT INTO books (title, editorial, author, published) VALUES
     ('In Search of Lost Time', 'Editions Gallimard', 'Marcel Proust', '1913'),
-    ('Ulysses', 'Sylvia Beach ', 'James Joyce', '1904');
+    ('Ulysses', 'Sylvia Beach', 'James Joyce', '1904');
