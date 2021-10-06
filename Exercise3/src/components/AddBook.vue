@@ -60,7 +60,7 @@
 </template>
 
 <script>
-import BooksDataService from "../services/BooksDataServices";
+import BooksDataService from "../services/BooksDataService";
 
 export default {
   name: "add-book",

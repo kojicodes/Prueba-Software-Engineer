@@ -3,7 +3,7 @@ import { createWebHistory, createRouter } from "vue-router";
 const routes =  [
   {
     path: "/",
-    alias: "/books",
+    alias: "/",
     name: "books",
     component: () => import("./components/BooksList")
   },
@@ -13,7 +13,7 @@ const routes =  [
     component: () => import("./components/Book")
   },
   {
-    path: "/add",
+    path: "/books",
     name: "add",
     component: () => import("./components/AddBook")
   }

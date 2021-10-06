@@ -3,11 +3,11 @@
     <nav class="navbar navbar-expand navbar-dark bg-dark">
       <router-link to="/" class="navbar-brand">Library</router-link>
       <div class="navbar-nav mr-auto">
-        <li class="nav-item">
+        <!--<li class="nav-item">
           <router-link to="/books" class="nav-link">Books</router-link>
-        </li>
+        </li>-->
         <li class="nav-item">
-          <router-link to="/add" class="nav-link">Add</router-link>
+          <router-link to="/books" class="nav-link">Add</router-link>
         </li>
       </div>
     </nav>
